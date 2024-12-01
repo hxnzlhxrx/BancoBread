@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        // Manejando ambos tipos de vistas
         btnCreditCard = findViewById(R.id.btn_credit_card)
             ?: findViewById(R.id.btn_credit_card_land)
 
